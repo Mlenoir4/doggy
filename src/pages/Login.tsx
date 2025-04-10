@@ -9,6 +9,7 @@ const Login = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Gérer la connexion ici
+    
   };
 
   return (

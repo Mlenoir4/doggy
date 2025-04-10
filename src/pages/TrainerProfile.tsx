@@ -1,6 +1,5 @@
-import React from 'react';
 import { useParams } from 'react-router-dom';
-import { Star, MapPin, Calendar, Clock, Award, MessageCircle, ChevronLeft, Phone, Mail, Globe } from 'lucide-react';
+import { Star, MapPin, Calendar, Award, MessageCircle, ChevronLeft, Phone, Mail, Globe } from 'lucide-react';
 
 const TrainerProfile = () => {
   const { id } = useParams();
